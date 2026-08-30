@@ -18,12 +18,12 @@
 * **`git clone git@github.com:account/repo.git`:** Clone repository.
 * **`git clone git@github.com:account/repo.git --depth=1`:** Shallow clone (only the latest commit history).
 
-## Remote config
+## remote config
 * **`git remote`:** Show remote repository names.
 * **`git remote -v`:** Show remote names and URLs.
 * **`git remote show origin`:** Show detailed information of remote origin.
 
-## Frequent
+## frequent
 * **`git status`:** Show branch and working directory status.
 
 * **`git add .`:** Stage all changes in working directory.
@@ -49,4 +49,7 @@
 
 * **`git reset --soft a1a1a`:** Back to past commit a1a1a, keeping future changes staged.
 * **`git reset --soft HEAD~1`:** Back to past 1 commit (undo last commit), keeping changes staged.
+
+## branch
+* **`git switch -c "fix-issues"`:** Create and switch to a new branch.
 

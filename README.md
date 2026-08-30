@@ -18,10 +18,10 @@
 * **`git clone git@github.com:account/repo.git`:** Clone repository.
 * **`git clone git@github.com:account/repo.git --depth=1`:** Shallow clone (only the latest commit history).
 
-# remote config
-git remote: show remote names
-git remote -v: show remote names & URLs
-git remote show origin: show detail remote origin
+## Remote config
+* **`git remote`:** Show remote repository names.
+* **`git remote -v`:** Show remote names and URLs.
+* **`git remote show origin`:** Show detailed information of remote origin.
 
 ## Frequent
 * **`git status`:** Show branch and working directory status.

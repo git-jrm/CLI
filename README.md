@@ -10,6 +10,9 @@
 * **`git config --global core.editor "code --wait"`:** Set VS Code as default editor.
 * **`git config --global color.ui true`:** terminal output colors.
 * **`git init`:** Initialize a new local repository.
+* **`git clone git@github.com:account/repo.git`:** Clone repository.
+
+git@github.com:git-jrm/git.git
 
 ## SSH
 * **`ssh-keygen -t ed25519 -C "email@email.com"`:** Generate a new SSH key pair.

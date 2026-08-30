@@ -1,6 +1,11 @@
 # Frequent Git commands
 
-## Config
+## ssh
+* **`ssh-keygen -t ed25519 -C "email@email.com"`:** Generate a new SSH key pair.
+* **`ls ~/.ssh`:** List files in the SSH directory.
+* **`clip < ~/.ssh/id_ed25519.pub`:** Copy public key to clipboard.
+
+## local config
 * **`git --version`:** Show installed version.
 * **`sudo apt install git -y`:** Install Git on Debian/Ubuntu.
 * **`git config --global user.name ""`:** Set global username.
@@ -11,14 +16,16 @@
 * **`git config --global color.ui true`:** terminal output colors.
 * **`git init`:** Initialize a new local repository.
 * **`git clone git@github.com:account/repo.git`:** Clone repository.
+* **`git clone git@github.com:account/repo.git --depth=1`:** Shallow clone (only the latest commit history).
 
-## SSH
-* **`ssh-keygen -t ed25519 -C "email@email.com"`:** Generate a new SSH key pair.
-* **`ls ~/.ssh`:** List files in the SSH directory.
-* **`clip < ~/.ssh/id_ed25519.pub`:** Copy public key to clipboard (Windows CLI).
+# remote config
+git remote: show remote names
+git remote -v: show remote names & URLs
+git remote show origin: show detail remote origin
 
 ## Frequent
 * **`git status`:** Show branch and working directory status.
+
 * **`git add .`:** Stage all changes in working directory.
 * **`git commit -m "message"`:** Create commit with a message.
 * **`git commit -am "message"`:** Stage tracked files and commit in one step.
@@ -40,7 +47,6 @@
 * **`git stash`:** Hide working directory changes in a limbo.
 * **`git stash pop`:** Restore hidden changes and clean the stash.
 
-* **`git reset --soft a1a1a`:** Back to the past commit and leave future commits in Stage.
-* **`git reset --soft HEAD~1`:** Back to the past 1 commit and leave future commits in Stage.
-* **`git reset --soft a1a1a`:** Move HEAD to a specific commit, keeping changes in Stage.
-* **`git reset --soft HEAD~1`:** Undo the last commit, keeping its changes staged.
+* **`git reset --soft a1a1a`:** Back to past commit a1a1a, keeping future changes staged.
+* **`git reset --soft HEAD~1`:** Back to past 1 commit (undo last commit), keeping changes staged.
+

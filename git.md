@@ -51,8 +51,17 @@
 * **`git reset --soft HEAD~1`:** Back to past 1 commit (undo last commit), keeping changes staged.
 
 * **`git switch -c "fix-issues"`:** Create and switch to a new branch (--create-ref).
+git branch: 
+git merge feature-login: Joins two or more development histories together.
+
 * **`git push -u origin fix-issues`:** Upload branch & link it for future pushes (--set-upstream).
 * **`git push`:** Upload branch.
-* **`git pull origin main`:** .
 
+* **`git pull origin main`:** .
 * **`git pull origin main`:** Fetch and merge changes from the remote `main` branch into your current local branch.
+
+git revert: 
+git cherry-pick: Copies a specific commit from one branch and applies it directly to your current branch.
+git reflog: Keeps a detailed safety log of every single action taken in your local repository.
+git worktree add: Lets you check out multiple branches at the exact same time into separate physical directories.
+

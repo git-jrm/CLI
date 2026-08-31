@@ -1,4 +1,4 @@
-# Frequent Git commands
+# 💯 Essential Git Commands
 
 ## ssh
 * **`ssh-keygen -t ed25519 -C "email@email.com"`:** Generate a new SSH key pair.
@@ -50,6 +50,7 @@
 * **`git reset --soft a1a1a`:** Back to past commit a1a1a, keeping future changes staged.
 * **`git reset --soft HEAD~1`:** Back to past 1 commit (undo last commit), keeping changes staged.
 
-## branch
-* **`git switch -c "fix-issues"`:** Create and switch to a new branch.
+* **`git switch -c "fix-issues"`:** Create and switch to a new branch (--create-ref).
+* **`git push -u origin fix-issues`:** Upload branch & link it for future pushes (--set-upstream).
+
 

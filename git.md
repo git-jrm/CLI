@@ -52,5 +52,7 @@
 
 * **`git switch -c "fix-issues"`:** Create and switch to a new branch (--create-ref).
 * **`git push -u origin fix-issues`:** Upload branch & link it for future pushes (--set-upstream).
+* **`git push`:** Upload branch.
+* **`git pull origin main`:** .
 
-
+* **`git pull origin main`:** Fetch and merge changes from the remote `main` branch into your current local branch.

@@ -2,8 +2,21 @@
 
 ## ssh
 * **`ssh-keygen -t ed25519 -C "email@email.com"`:** Generate a new SSH key pair.
-* **`ls ~/.ssh`:** List files in the SSH directory.
-* **`clip < ~/.ssh/id_ed25519.pub`:** Copy public key to clipboard.
+* **`ll ~/.ssh`:** List files in the SSH directory.
+* **`echo $XDG_SESSION_TYPE`:** Check the current session type.
+* **`xclip -sel clip < ~/.ssh/id_ed25519.pub`:** Copy key in X11. (sudo apt install xclip)
+* **`wl-copy < ~/.ssh/id_ed25519.pub`:** Copy key in wayland (sudo apt install wl-clipboard).
+* **`cat ~/.ssh/id_ed25519.pub`:** Show key.
+
+## SSH
+
+* **`ssh-keygen -t ed25519 -C "email@email.com"`**: Generates a new SSH key pair using the Ed25519 algorithm.
+* **`ll ~/.ssh`**: Lists all files in the SSH directory, including hidden ones and permissions.
+* **`echo $XDG_SESSION_TYPE`:** Check the current session type.
+* **`xclip -selection clipboard < ~/.ssh/id_ed25519.pub`**: Copies the public key to the clipboard (for **X11** sessions).
+* **`xsel --clipboard < ~/.ssh/id_ed25519.pub`**: Copies the public key to the clipboard (for **Wayland** sessions with compatibility, or alternative X11 setups).
+* **`cat ~/.ssh/id_ed25519.pub`**: Prints the public key to the terminal to copy it manually (universal method).
+
 
 ## local config
 * **`git --version`:** Show installed version.

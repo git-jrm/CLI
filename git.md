@@ -1,12 +1,12 @@
 # 💯 Essential Git Commands
 
-## ssh
+## 🛠️ Environment Setup (Linux / SSH)
 * **`ssh-keygen -t ed25519 -C "email@email.com"`:** Generate a new SSH key pair.
 * **`ll ~/.ssh`:** List files in the SSH directory.
+* **`cat ~/.ssh/id_ed25519.pub`:** Show key.
 * **`echo $XDG_SESSION_TYPE`:** Check the current session type.
 * **`xclip -sel clip < ~/.ssh/id_ed25519.pub`:** Copy key in X11. (xclip --version || sudo apt install xclip)
-* **`wl-copy < ~/.ssh/id_ed25519.pub`:** Copy key in wayland ((wl-clipboard --version || sudo apt install wl-clipboard).
-* **`cat ~/.ssh/id_ed25519.pub`:** Show key.
+* **`wl-copy < ~/.ssh/id_ed25519.pub`:** Copy key in wayland (wl-clipboard --version || sudo apt install wl-clipboard).
 
 ## config
 * **`git --version`:** Show installed version.

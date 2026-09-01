@@ -75,32 +75,25 @@
 * **`git commit -am "message"`:** Stage tracked files and commit in one step.
 * **`git add file.txt`:** Stage a specific file safely.
 * **`git restore file.txt`:** Discard local changes in working directory.
-
 * **`git show`:** Show detailed content of the current commit.
 * **`git show file.txt`:** Show changes for a specific file in the last commit.
 * **`git diff`:** Compare Working Directory against Stage.
 * **`git diff --staged`:** Compare Stage against the last commit.
 * **`git log --oneline`:** List commit history in compact single lines.
 * **`git reflog`:** Keep a detailed safety log of every local action taken.
-
-
 * **`git rebase -i HEAD~3`:** Back to the past to edit history.
 * **`git commit --amend`:** Replace the current commit.
 * **`git rebase --continue`:** Apply pending commits in blocks.
 * **`git reset --soft a1a1a`:** Back to specific commit, keeping all changes staged.
 * **`git reset --soft HEAD~1`:** Back to undo last commit, keeping its changes staged.
-
 * **`git stash`:** Hide working directory changes in a limbo.
 * **`git stash pop`:** Restore hidden changes and clean the stash.
-
 * **`git switch -c "fix-issues"`:** Create and switch to a new branch. (--create)
 * **`git branch`:** List local branches.
 * **`git merge feature-login`:** Join two or more development histories together.
-
 * **`git push -u origin fix-issues`:** Upload branch and link. (--set-upstream)
 * **`git push`:** Upload branch.
 * **`git pull origin main`:** Fetch and merge changes from the remote main branch.
-
 * **`git revert`:** Create a new commit that undoes the changes of a past commit.
 * **`git cherry-pick`:** Copy a specific commit from another branch to your current branch.
 * **`git worktree add`:** Check out multiple branches at the same time in separate folders.

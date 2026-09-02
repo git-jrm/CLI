@@ -44,6 +44,7 @@
 * **`git switch <fix-issue>`:** Switch to an existing branch.
 * **`git checkout <fix-issue>`:** Switch to an existing branch. *(Legacy/Not-recommended)*
 * **`git switch -c <fix-issue>`:** Create and switch to a new branch. (--create)
+* **`git checkout -b <fix-issue>`:** Create and switch to a new branch. (--branch) *(Legacy/Not-recommended)*
 * **`git merge <feature-login>`:** Join two or more development histories together.
 * **`git branch -d <fix-issue>`:** Safe delete branch (only if merged).
 * **`git branch -D <fix-issue>`:** Force delete branch.

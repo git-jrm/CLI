@@ -40,15 +40,16 @@
 
 ## 🌿 Branching & Merging
 * **`git branch`:** List local branches.
-* **`git branch <fix-issue>`:** Create local branch.
-* **`git switch <fix-issue>`:** Switch to an existing branch.
-* **`git checkout <fix-issue>`:** Switch to an existing branch. *(Legacy/Not-recommended)*
-* **`git switch -c <fix-issue>`:** Create and switch to a new branch. (--create)
-* **`git checkout -b <fix-issue>`:** Create and switch to a new branch. (--branch) *(Legacy/Not-recommended)*
-* **`git merge <feature-login>`:** Join two or more development histories together.
-* **`git branch -d <fix-issue>`:** Safe delete branch (only if merged).
-* **`git branch -D <fix-issue>`:** Force delete branch.
-* **`git branch -m <fix-issue> <fix-issue-desc>`:** Modify branch name.
+* **`git branch <name>`:** Create local branch.
+* **`git switch <name>`:** Switch to an existing branch.
+* **`git checkout <name>`:** Switch to an existing branch. *(Legacy/Not-recommended)*
+* **`git switch -c <name>`:** Create and switch to a new branch. (--create)
+* **`git checkout -b <name>`:** Create and switch to a new branch. (--branch) *(Legacy/Not-recommended)*
+* **`git merge <name>`:** Join two or more development histories together.
+* **`git branch -d <name>`:** Safe delete branch (--delete).
+* **`git branch -D <name>`:** Force delete branch.
+* **`git branch -m <name> <new-name>`:** Modify name in specific branch.
+* **`git branch -m <name>`:** Modify name in this branch.
 
 ## 🔍 Inspection & Diff
 * **`git log --oneline`:** Compact single-line commit history.

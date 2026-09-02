@@ -30,7 +30,7 @@
 ## 🔄 Workflow
 * **`git status`:** Show branch and working directory status.
 * **`git add .`:** Stage all changes in working directory.
-* **`git add file.txt`:** Stage a specific file safely.
+* **`git add <file>`:** Stage a specific file safely.
 * **`git commit -m "message"`:** Create commit with a message.
 * **`git commit -am "message"`:** Stage tracked files and commit in one step.
 * **`git push -u origin fix-issues`:** Upload branch and link. (--set-upstream)
@@ -44,7 +44,7 @@
 * **`git switch <fix-issue>`:** Switch to an existing branch.
 * **`git checkout <fix-issue>`:** Switch to an existing branch. *(Legacy/Not-recommended)*
 * **`git switch -c <fix-issue>`:** Create and switch to a new branch. (--create)
-* **`git merge feature-login`:** Join two or more development histories together.
+* **`git merge <feature-login>`:** Join two or more development histories together.
 * **`git branch -d <fix-issue>`:** Safe delete branch (only if merged).
 * **`git branch -D <fix-issue>`:** Force delete branch.
 
@@ -53,12 +53,13 @@
 * **`git log --oneline --graph --all`:** Visual graph of all branches and history.
 * **`git reflog`:** Keep a detailed safety log of every local action taken.
 * **`git show`:** Show changes in Current Commit.
-* **`git show file.txt`:** Show changes for a specific file.
+* **`git show <file>`:** Show changes for a specific file.
 * **`git diff`:** Compare Working Directory against Staging area.
 * **`git diff --staged`:** Compare Staging area against Current Commit.
 
 ## ⏪ Undoing & Rewriting History
-* **`git restore file.txt`:** Discard local changes in working directory.
+* **`git restore <file>`**: Discard local unstaged changes.
+* **`git checkout -- <file>`**: Discard local unstaged changes *(legacy/not-recommended)*.
 * **`git commit --amend`:** Replace the current commit.
 * **`git revert`:** Create a new commit that undoes the changes of a past commit. **(no visto aún: repasar)**
 * **`git reset --soft a1a1a`:** Move to commit, keeping all changes staged.

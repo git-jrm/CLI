@@ -49,7 +49,7 @@
 ## 🔍 Inspection & Diff
 * **`git log --oneline`:** Compact single-line commit history.
 * **`git log --oneline --graph --all`:** Visual graph of all branches and history.
-* * **`git reflog`:** Keep a detailed safety log of every local action taken.
+* **`git reflog`:** Keep a detailed safety log of every local action taken.
 * **`git show`:** Show changes in Current Commit.
 * **`git show file.txt`:** Show changes for a specific file.
 * **`git diff`:** Compare Working Directory against Staging area.

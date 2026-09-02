@@ -36,7 +36,7 @@
 * **`git push -u origin fix-issues`:** Upload branch and link. (--set-upstream)
 * **`git push`:** Upload branch.
 * **`git pull origin main`:** Fetch and merge changes from the remote main branch.
-* **`git fetch --prune`:** Fetch remote updates and clean up deleted remote branches. ***(no vista, repasar)
+* **`git fetch --prune`:** Fetch remote updates and clean up deleted remote branches. **(no visto aún: repasar)**
 
 ## 🌿 Branching & Merging
 * **`git branch`:** List local branches.
@@ -60,7 +60,8 @@
 * **`git commit --amend`:** Replace the current commit.
 * **`git revert`:** Create a new commit that undoes the changes of a past commit.
 * **`git reset --soft a1a1a`:** Back to specific commit, keeping all changes staged.
-* **`git reset --soft HEAD~1`:** Back to undo last commit, keeping its changes staged.
+* **`git reset --mixed`:** Back to specific commit, unstaging changes but keeping them in working directory (default). **(no visto aún: repasar)**
+* **`git reset --hard`:** Back to specific commit, permanently discarding all uncommitted changes. **(no visto aún: repasar)**
 * **`git rebase -i HEAD~3`:** Back to the past to edit history.
 * **`git rebase --continue`:** Apply pending commits in blocks.
 

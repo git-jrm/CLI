@@ -57,11 +57,11 @@
 
 ## ⏪ Undoing & Rewriting History
 * **`git restore file.txt`:** Discard local changes in working directory.
-* **`git commit --amend`:** Replace the current commit.
+* **`git commit --amend`:** Replace the current commit. **(no visto aún: repasar)**
 * **`git revert`:** Create a new commit that undoes the changes of a past commit.
 * **`git reset --soft a1a1a`:** Back to specific commit, keeping all changes staged.
-* **`git reset --mixed`:** Back to specific commit, unstaging changes but keeping them in working directory (default). **(no visto aún: repasar)**
-* **`git reset --hard`:** Back to specific commit, permanently discarding all uncommitted changes. **(no visto aún: repasar)**
+* **`git reset --mixed a1a1a`:** Back to specific commit, unstaging changes but keeping them in working directory (default). **(no visto aún: repasar)**
+* **`git reset --hard a1a1a` :** Discard uncommitted changes, restore HEAD and syncs stage and working directory.
 * **`git rebase -i HEAD~3`:** Back to the past to edit history.
 * **`git rebase --continue`:** Apply pending commits in blocks.
 

@@ -42,6 +42,7 @@
 * **`git branch`:** List local branches.
 * **`git branch <fix-issue>`:** Create local branch.
 * **`git switch <fix-issue>`:** Switch to an existing branch.
+* **`git checkout <fix-issue>`:** Switch to an existing branch. *Legacy Not-recommended*
 * **`git switch -c <fix-issue>`:** Create and switch to a new branch. (--create)
 * **`git merge feature-login`:** Join two or more development histories together.
 * **`git branch -d <fix-issue>`:** Safe delete branch (only if merged).

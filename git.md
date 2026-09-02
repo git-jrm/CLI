@@ -48,6 +48,7 @@
 * **`git merge <feature-login>`:** Join two or more development histories together.
 * **`git branch -d <fix-issue>`:** Safe delete branch (only if merged).
 * **`git branch -D <fix-issue>`:** Force delete branch.
+* **`git branch -m <fix-issue> <fix-issue-desc>`:** Modify branch name.
 
 ## 🔍 Inspection & Diff
 * **`git log --oneline`:** Compact single-line commit history.

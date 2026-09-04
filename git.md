@@ -58,6 +58,7 @@
 * **`git reflog`:** Keep a detailed safety log of every local action taken.
 * **`git show`:** Show changes in Current Commit.
 * **`git show <file>`:** Show changes for a specific file.
+* **`git ls-tree -r --name-only a1a1a`:** List all tracked files in commit a1a1a.
 * **`git diff`:** Compare Working Directory against Staging area.
 * **`git diff --staged`:** Compare Staging area against Current Commit.
 

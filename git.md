@@ -45,11 +45,12 @@
 * **`git checkout <name>`:** Switch to an existing branch. *(Legacy/Not-recommended)*
 * **`git switch -c <name>`:** Create and switch to a new branch. (--create)
 * **`git checkout -b <name>`:** Create and switch to a new branch. (--branch) *(Legacy/Not-recommended)*
-* **`git merge <name>`:** Join two or more development histories together.
 * **`git branch -d <name>`:** Safe delete branch (--delete).
 * **`git branch -D <name>`:** Force delete branch.
 * **`git branch -m <name> <new-name>`:** Modify name in specific branch.
-* **`git branch -m <name>`:** Modify name in this branch.
+* **`git branch -m <name>`:** Rename current branch.
+* **`git merge <name>`:** Join specified branch into current branch.
+* **`git merge --continue`:** Continue merge process after resolving conflicts.
 
 ## 🔍 Inspection & Diff
 * **`git log --oneline`:** Compact single-line commit history.

@@ -59,6 +59,7 @@
 * **`git show`:** Show changes in Current Commit.
 * **`git show <file>`:** Show changes for a specific file.
 * **`git ls-tree -r -n a1a1a`:** List all tracked files in commit a1a1a. (--recursive --name-only)
+* **`git ls-tree -r -n HEAD`:** List all tracked files in current commit. (--recursive --name-only)
 * **`git diff`:** Compare Working Directory against Staging area.
 * **`git diff --staged`:** Compare Staging area against Current Commit.
 

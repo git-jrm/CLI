@@ -19,6 +19,7 @@
 * **`git config --global core.editor "code --wait"`:** Set VS Code as default editor.
 * **`git config --global color.ui true`:** terminal output colors.
 * **`git config --global core.excludesfile ~/.gitignore_global`:** Set global ignore.
+* **`git config --global alias.log2 "log --online --graph --all"`:** Set alias.
 
 ## 📁 Setup
 * **`git init`:** Initialize a new local repository.

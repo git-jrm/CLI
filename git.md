@@ -18,6 +18,7 @@
 * **`git config --global core.abbrev 5`:** Set 5-character commit hash abbreviation.
 * **`git config --global core.editor "code --wait"`:** Set VS Code as default editor.
 * **`git config --global color.ui true`:** terminal output colors.
+* **`git config --global core.excludesfile ~/.gitignore_global`:** Set global ignore.
 
 ## 📁 Setup
 * **`git init`:** Initialize a new local repository.
@@ -60,6 +61,7 @@
 * **`git show <file>`:** Show changes for a specific file.
 * **`git ls-tree -r -n a1a1a`:** List all tracked files in commit a1a1a. (--recursive --name-only)
 * **`git ls-tree -r -n HEAD`:** List all tracked files in current commit. (--recursive --name-only)
+* **`git ls-tree -r -l HEAD`:** List all tracked files in current commit. (--recursive --long)
 * **`git diff`:** Compare Working Directory against Staging area.
 * **`git diff --staged`:** Compare Staging area against Current Commit.
 

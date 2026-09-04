@@ -74,6 +74,7 @@
 * **`git revert`:** Create a new commit that undoes the changes of a past commit. **(no visto aún: repasar)**
 * **`git reset --soft a1a1a`:** Move to commit, keeping all changes staged.
 * **`git reset --mixed a1a1a`:** Move to commit, unstage but keep changes in working directory (default).
+* **`git reset --hard HEAD~1`:** Move 1 commit back, discard changes, sync stage and working directory.
 * **`git reset --hard a1a1a`:** Move to commit, discard changes, sync stage and working directory.
 * **`git rebase -i HEAD~3`:** Back to the past to edit history.
 * **`git rebase --continue`:** Apply pending commits in blocks.

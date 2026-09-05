@@ -36,10 +36,11 @@
 * **`git commit -m "message"`:** Create commit with a message.
 * **`git commit -am "message"`:** Stage tracked files and commit in one step.
 * **`git push`:** Upload current branch.
-* **`git push origin master`:** Upload branch.
+* **`git push origin main`:** Upload branch.
 * **`git push -u origin fix-issues`:** Upload branch and link. (--set-upstream)
 * **`git pull`:** Fetch and merge changes from the remote main branch.
 * **`git pull origin main`:** Fetch and merge changes from the remote main branch.
+* **`git pull -u origin main`:** Fetch and merge changes and link.
 * **`git fetch --prune`:** Fetch remote updates and clean up deleted remote branches. **(no visto aún: repasar)**
 
 ## 🌿 Branching & Merging

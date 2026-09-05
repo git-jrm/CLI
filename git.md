@@ -23,7 +23,7 @@
 
 ## 📁 Setup
 * **`git init`:** Initialize a new local repository.
-* **`git clone git@github.com:account/repo.git`:** Clone repository.
+* **`git clone git@github.com:account/repo.git`:** Download full copy and history of repo.
 * **`git clone git@github.com:account/repo.git --depth=1`:** Shallow clone (only the latest commit history).
 * **`git remote`:** Show remote repository names.
 * **`git remote -v`:** Show remote names and URLs.

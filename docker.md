@@ -24,3 +24,7 @@ EOF
 ```
 * **`cat /etc/apt/sources.list.d/docker.sources`:** Verify the file was created correctly.
 * **`sudo apt update`:** Refresh index, now including Docker's repo.
+
+## 📦 Install
+* **`sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`:** Install Docker Engine and plugins.
+

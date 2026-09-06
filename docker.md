@@ -33,3 +33,14 @@ EOF
 * **`sudo systemctl start docker`:** Start Docker service manually.
 * **`sudo docker run hello-world`:** Test full Docker setup end-to-end.
 
+## 🐳 Run
+* **`sudo docker images`:** List downloaded images.
+* **`sudo docker build .`:** Build image from Dockerfile.
+* **`sudo docker image rm 1234567890`:** Remove Image from ID.
+* **`sudo docker build . -t mywebapp`:** Build from Dockerfile.
+* **`sudo docker container ls`:** List running containers only.
+* **`sudo docker container ls -a`:** List running/stopped containers.
+
+
+
+

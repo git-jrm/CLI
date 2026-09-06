@@ -33,14 +33,34 @@ EOF
 * **`sudo systemctl start docker`:** Start Docker service manually.
 * **`sudo docker run <name>`:** Test full Docker setup end-to-end.
 
-## 🐳 Run
+## 🖼️ Images
 * **`sudo docker images`:** List downloaded images.
 * **`sudo docker build .`:** Build image from Dockerfile.
-* **`sudo docker image rm <id>`:** Remove Image from ID.
-* **`sudo docker build . -t mywebapp`:** Build from Dockerfile.
-* **`sudo docker container ls`:** List running containers only.
-* **`sudo docker container ls -a`:** List running/stopped containers.
+* **`sudo docker build . -t myapp`:** Build image, tagged as "myapp".
+* **`sudo docker image rm <id>`:** Remove image.
+* **`sudo docker pull <image>`:** Download image from Docker Hub.
+
+## 📦 Containers
+* **`sudo docker ps`:** List running containers (old).
+* **`sudo docker ps -a`:** List all containers (old).
+* **`sudo docker container ls`:** List running containers.
+* **`sudo docker container ls -a`:** List all containers.
+* **`sudo docker run myapp`:** Run attached container.
+* **`sudo docker run -p 5024:5024 myapp`:** Run attached container mapping port.
+* **`sudo docker run -d -p 5024:5024 myapp`:** Run detached container mapping port.
+* **`sudo docker run --rm myapp`:** Run and auto-delete container on exit.
+* **`sudo docker run -it myapp bash`:** Run and open interactive shell inside.
 * **`sudo docker stop <id>`:** Stop a running container.
+* **`sudo docker start <id>`:** Restart a stopped container.
+* **`sudo docker restart <id>`:** Stop + start in one command.
+* **`sudo docker rm <id>`:** Delete a stopped container.
+* **`sudo docker exec -it <id> bash`:** Open a shell inside a running container.
+* **`sudo docker logs <id>`:** View container output/logs.
+* **`sudo docker logs -f <id>`:** Follow logs in real time (like `tail -f`).
+
+
+
+
 
 
 

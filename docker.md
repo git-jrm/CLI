@@ -28,3 +28,8 @@ EOF
 ## 📦 Install
 * **`sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`:** Install Docker Engine and plugins.
 
+## 🚀 Start
+* **`sudo systemctl status docker`:** Check if Docker service is running.
+* **`sudo systemctl start docker`:** Start Docker service manually.
+* **`sudo docker run hello-world`:** Test full Docker setup end-to-end.
+

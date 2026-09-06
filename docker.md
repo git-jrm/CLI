@@ -21,4 +21,6 @@ Architectures: $(dpkg --print-architecture)
 Signed-By: /etc/apt/keyrings/docker.asc
 EOF
 ```
+* **`cat /etc/apt/sources.list.d/docker.sources`:** .
+* **`sudo apt update`:** .
 

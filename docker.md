@@ -50,10 +50,11 @@ EOF
 * **`sudo docker run -d -p 5024:5024 myapp`:** Run detached container mapping port.
 * **`sudo docker run --rm myapp`:** Run and auto-delete container on exit.
 * **`sudo docker run -it myapp bash`:** Run and open interactive shell inside.
-* **`sudo docker stop <id>`:** Stop a running container.
+* **`sudo docker run --name <name> -p 8080:80 -d nginx`:** Run and open interactive shell inside mapping port.
+* **`sudo docker stop <id|name>`:** Stop a running container.
 * **`sudo docker start <id>`:** Restart a stopped container.
 * **`sudo docker restart <id>`:** Stop + start in one command.
-* **`sudo docker rm <id>`:** Delete a stopped container.
+* **`sudo docker rm <id|name>`:** Delete a stopped container.
 * **`sudo docker exec -it <id> bash`:** Open a shell inside a running container.
 * **`sudo docker logs <id>`:** View container output/logs.
 * **`sudo docker logs -f <id>`:** Follow logs in real time (like `tail -f`).

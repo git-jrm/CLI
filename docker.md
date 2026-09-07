@@ -34,7 +34,8 @@ EOF
 * **`sudo docker run <name>`:** Test full Docker setup end-to-end.
 
 ## 🖼️ Images
-* **`sudo docker images`:** List downloaded images.
+* **`sudo docker images`:** List downloaded images *old*.
+* **`sudo docker image ls`:** List downloaded images.
 * **`sudo docker build .`:** Build image from Dockerfile.
 * **`sudo docker build -t <tag> .`:** Build image and tag.
 * **`sudo docker image rm <id>`:** Remove image.

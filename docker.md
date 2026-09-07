@@ -55,6 +55,7 @@ EOF
 * **`sudo docker start <id>`:** Restart a stopped container.
 * **`sudo docker restart <id>`:** Stop + start in one command.
 * **`sudo docker rm <id|name>`:** Delete a stopped container.
+* **`sudo docker rm -f <id|name>`:** Force delete a running container.
 * **`sudo docker exec -it <id> bash`:** Open a shell inside a running container.
 * **`sudo docker logs <id>`:** View container output/logs.
 * **`sudo docker logs -f <id>`:** Follow logs in real time (like `tail -f`).

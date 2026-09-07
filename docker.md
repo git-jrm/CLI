@@ -36,15 +36,15 @@ EOF
 ## 🖼️ Images
 * **`sudo docker images`:** List downloaded images.
 * **`sudo docker build .`:** Build image from Dockerfile.
-* **`sudo docker build . -t myapp`:** Build image, tagged as "myapp".
+* **`sudo docker build -t <tag> .`:** Build image and tag.
 * **`sudo docker image rm <id>`:** Remove image.
 * **`sudo docker pull <image>`:** Download image from Docker Hub.
 
 ## 📦 Containers
-* **`sudo docker ps`:** List running containers (old).
-* **`sudo docker ps -a`:** List all containers (old).
-* **`sudo docker container ls`:** List running containers.
-* **`sudo docker container ls -a`:** List all containers.
+* **`sudo docker ps`:** List running containers. *old*
+* **`sudo docker ps -a`:** List all containers. *old*
+* **`sudo docker container ls`:** List running containers. *new*
+* **`sudo docker container ls -a`:** List all containers. *new*
 * **`sudo docker run myapp`:** Run attached container.
 * **`sudo docker run -p 5024:5024 myapp`:** Run attached container mapping port.
 * **`sudo docker run -d -p 5024:5024 myapp`:** Run detached container mapping port.

@@ -57,11 +57,9 @@ EOF
 * **`sudo docker exec -it <id> bash`:** Open a shell inside a running container.
 * **`sudo docker logs <id>`:** View container output/logs.
 * **`sudo docker logs -f <id>`:** Follow logs in real time (like `tail -f`).
-
-
-
-
-
+* **`sudo docker pull ubuntu`:** Download Ubuntu image.
+* **`sudo docker run -it --entrypoint "/bin/bash" ubuntu`:** Run terminal interactiva container, forcing bash shell.
+* **`sudo docker run -it ubuntu bash`:** Run terminal interactiva container.
 
 
 

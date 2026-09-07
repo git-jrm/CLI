@@ -50,8 +50,8 @@ EOF
 * **`sudo docker run -d -p 5024:5024 myapp`:** Run detached container mapping port.
 * **`sudo docker run --rm myapp`:** Run and auto-delete container on exit.
 * **`sudo docker run --name <name> -p 8080:80 -d nginx`:** Run and open interactive shell inside mapping port.
-* **`sudo docker run -it ubuntu bash`:** Run terminal interactiva container.
-* **`sudo docker run -it --entrypoint "/bin/bash" ubuntu`:** Run terminal interactiva container, forcing bash shell.
+* **`sudo docker run --name <name> -it ubuntu bash`:** Run interactive terminal container.
+* **`sudo docker run -it --entrypoint "/bin/bash" ubuntu`:** Run interactive terminal container, forcing bash shell.
 * **`sudo docker stop <id|name>`:** Stop a running container.
 * **`sudo docker start <id>`:** Restart a stopped container.
 * **`sudo docker restart <id>`:** Stop + start in one command.

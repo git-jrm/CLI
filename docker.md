@@ -41,8 +41,9 @@ EOF
 * **`sudo docker pull <image>`:** Download image ***old***.
 * **`sudo docker image pull <image>`:** Download image.
 * **`sudo docker rmi <id|name>`:** Remove image ***old***.
-* **`sudo docker image rm <id>`:** Remove image.
-
+* **`sudo docker image rm <id|name>`:** Remove image.
+* **`sudo docker tag <id|name>`:** Tag image ***old***.
+* **`sudo docker image tag <id|name>`:** Tag image.
 
 ## 📦 Containers
 * **`sudo docker ps`:** List running containers. *old*
@@ -65,6 +66,23 @@ EOF
 * **`sudo docker logs <id>`:** View container output/logs.
 * **`sudo docker logs -f <id>`:** Follow logs in real time (like `tail -f`).
 * **`sudo docker pull ubuntu`:** Download Ubuntu image.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -65,14 +65,23 @@ EOF
 * **`docker container stop <id|name>`:** Stop running container.
 * **`docker start <id>`:** Restart container. ***old***
 * **`docker container start <id>`:** Restart container.
-* **`docker restart <id>`:** Stop + start in one command.
-* **`docker rm <id|name>`:** Delete a stopped container.
-* **`docker rm -f <id|name>`:** Force delete a running container.
-* **`docker exec -it <id> bash`:** Open a shell inside a running container.
-* **`docker logs <id>`:** View container output/logs.
-* **`docker logs -f <id>`:** Follow logs in real time (like `tail -f`).
-* **`docker pull ubuntu`:** Download Ubuntu image.
+* **`docker restart <id>`:** Restart container. ***old***
+* **`docker container restart <id>`:** Restart container.
+* **`docker rm <id|name>`:** Delete stopped container. ***old***
+* **`docker rm -f <id|name>`:** Force delete running container. ***old***
+* **`docker container rm <id|name>`:** Delete stopped container.
 
+* **`docker logs <id>`:** View container output.
+* **`docker logs -f <id>`:** Follow container output (like `tail -f`).
+
+* **`docker exec -it <id> bash`:** Open shell in running container. ***old***
+* **`docker container exec -it <id> bash`:** Open shell in running container.
+
+* **`docker cp`:** . ***old***
+* **`docker container cp`:** .
+
+* **`docker inspect`:** . ***old***
+* **`docker container inspect`:** .
 
 
 

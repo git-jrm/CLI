@@ -44,6 +44,9 @@ EOF
 * **`sudo docker image rm <id|name>`:** Remove image.
 * **`sudo docker tag <id|name>`:** Tag image ***old***.
 * **`sudo docker image tag <id|name>`:** Tag image.
+* **`sudo docker push <image>`:** Upload image ***old***.
+* **`sudo docker image push <image>`:** Upload image.
+* **`docker image prune -a --filter "until=24h"`:** Remove images created more than 1d ago.
 
 ## 📦 Containers
 * **`sudo docker ps`:** List running containers. *old*

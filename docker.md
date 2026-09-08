@@ -34,12 +34,15 @@ EOF
 * **`sudo docker run <name>`:** Test full Docker setup end-to-end.
 
 ## 🖼️ Images
-* **`sudo docker images`:** List downloaded images *old*.
+* **`sudo docker images`:** List downloaded images ***old***.
 * **`sudo docker image ls`:** List downloaded images.
-* **`sudo docker build .`:** Build image from Dockerfile.
-* **`sudo docker build -t <tag> .`:** Build image and tag.
+* **`sudo docker build -t <tag> .`:** Build image and tag ***old***.
+* **`sudo docker image build .`:** Build image.
+* **`sudo docker pull <image>`:** Download image ***old***.
+* **`sudo docker image pull <image>`:** Download image.
+* **`sudo docker rmi <id|name>`:** Remove image ***old***.
 * **`sudo docker image rm <id>`:** Remove image.
-* **`sudo docker pull <image>`:** Download image from Docker Hub.
+
 
 ## 📦 Containers
 * **`sudo docker ps`:** List running containers. *old*

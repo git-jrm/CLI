@@ -31,44 +31,47 @@ EOF
 ## 🚀 Start
 * **`sudo systemctl status docker`:** Check if Docker service is running.
 * **`sudo systemctl start docker`:** Start Docker service manually.
-* **`sudo docker run <name>`:** Test full Docker setup end-to-end.
+* **`docker run <name>`:** Test full Docker setup end-to-end.
 
 ## 🖼️ Images
-* **`sudo docker images`:** List downloaded images ***old***.
-* **`sudo docker image ls`:** List downloaded images.
-* **`sudo docker build -t <tag> .`:** Build image and tag ***old***.
-* **`sudo docker image build .`:** Build image.
-* **`sudo docker pull <image>`:** Download image ***old***.
-* **`sudo docker image pull <image>`:** Download image.
-* **`sudo docker rmi <id|name>`:** Remove image ***old***.
-* **`sudo docker image rm <id|name>`:** Remove image.
-* **`sudo docker tag <id|name>`:** Tag image ***old***.
-* **`sudo docker image tag <id|name>`:** Tag image.
-* **`sudo docker push <image>`:** Upload image ***old***.
-* **`sudo docker image push <image>`:** Upload image.
-* **`docker image prune -a --filter "until=24h"`:** Remove images created more than 1d ago.
+* **`docker images`:** List downloaded images. ***old***
+* **`docker image ls`:** List downloaded images.
+* **`docker build -t <tag> .`:** Build image and tag. ***old***
+* **`docker image build .`:** Build image.
+* **`docker pull <image>`:** Download image. ***old***
+* **`docker image pull <image>`:** Download image.
+* **`docker rmi <id|name>`:** Remove image. ***old***
+* **`docker image rm <id|name>`:** Remove image.
+* **`docker tag <id|name>`:** Tag image. ***old***
+* **`docker image tag <id|name>`:** Tag image.
+* **`docker push <image>`:** Upload image. ***old***
+* **`docker image push <image>`:** Upload image.
+* **`docker image prune -a --filter "until=24h"`:** Remove images created more than 24h ago.
 
 ## 📦 Containers
-* **`sudo docker ps`:** List running containers ***old***.
-* **`sudo docker ps -a`:** List all containers ***old***.
-* **`sudo docker container ls`:** List running containers.
-* **`sudo docker container ls -a`:** List all containers.
-* **`sudo docker run myapp`:** Run attached container.
-* **`sudo docker run -p 5024:5024 myapp`:** Run attached container mapping port.
-* **`sudo docker run -d -p 5024:5024 myapp`:** Run detached container mapping port.
-* **`sudo docker run --rm myapp`:** Run and auto-delete container on exit.
-* **`sudo docker run --name <name> -p 8080:80 -d nginx`:** Run and open interactive shell inside mapping port.
-* **`sudo docker run --name <name> -it ubuntu bash`:** Run interactive terminal container.
-* **`sudo docker run -it --entrypoint "/bin/bash" ubuntu`:** Run interactive terminal container, forcing bash shell.
-* **`sudo docker stop <id|name>`:** Stop a running container.
-* **`sudo docker start <id>`:** Restart a stopped container.
-* **`sudo docker restart <id>`:** Stop + start in one command.
-* **`sudo docker rm <id|name>`:** Delete a stopped container.
-* **`sudo docker rm -f <id|name>`:** Force delete a running container.
-* **`sudo docker exec -it <id> bash`:** Open a shell inside a running container.
-* **`sudo docker logs <id>`:** View container output/logs.
-* **`sudo docker logs -f <id>`:** Follow logs in real time (like `tail -f`).
-* **`sudo docker pull ubuntu`:** Download Ubuntu image.
+* **`docker ps`:** List running containers. ***old***
+* **`docker ps -a`:** List all containers. ***old***
+* **`docker container ls`:** List running containers.
+* **`docker container ls -a`:** List all containers.
+* **`docker run <name>`:** Run container. ***old***
+* **`docker run -p 8080:80 <name>`:** Run container mapping port.
+* **`docker run -d -p 8080:80 <name>`:** Run detached container mapping port.
+* **`docker run --rm <name>`:** Run and auto-delete container on exit.
+* **`docker run --name <name> -p 8080:80 -d nginx`:** Run and name detached container mapping port.
+* **`docker run --name <name> -it ubuntu bash`:** Run and name interactive terminal container.
+* **`docker run -it --entrypoint "/bin/bash" ubuntu`:** Run interactive terminal container, forcing bash shell.
+* **`docker container run`:** Run containter.
+* **`docker stop <id|name>`:** Stop running container. ***old***
+* **`docker container stop <id|name>`:** Stop running container.
+* **`docker start <id>`:** Restart container. ***old***
+* **`docker container start <id>`:** Restart container.
+* **`docker restart <id>`:** Stop + start in one command.
+* **`docker rm <id|name>`:** Delete a stopped container.
+* **`docker rm -f <id|name>`:** Force delete a running container.
+* **`docker exec -it <id> bash`:** Open a shell inside a running container.
+* **`docker logs <id>`:** View container output/logs.
+* **`docker logs -f <id>`:** Follow logs in real time (like `tail -f`).
+* **`docker pull ubuntu`:** Download Ubuntu image.
 
 
 

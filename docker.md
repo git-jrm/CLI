@@ -49,10 +49,10 @@ EOF
 * **`docker image prune -a --filter "until=24h"`:** Remove images created more than 1d ago.
 
 ## 📦 Containers
-* **`sudo docker ps`:** List running containers. *old*
-* **`sudo docker ps -a`:** List all containers. *old*
-* **`sudo docker container ls`:** List running containers. *new*
-* **`sudo docker container ls -a`:** List all containers. *new*
+* **`sudo docker ps`:** List running containers ***old***.
+* **`sudo docker ps -a`:** List all containers ***old***.
+* **`sudo docker container ls`:** List running containers.
+* **`sudo docker container ls -a`:** List all containers.
 * **`sudo docker run myapp`:** Run attached container.
 * **`sudo docker run -p 5024:5024 myapp`:** Run attached container mapping port.
 * **`sudo docker run -d -p 5024:5024 myapp`:** Run detached container mapping port.

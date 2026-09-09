@@ -33,10 +33,16 @@ EOF
 * **`sudo systemctl start docker`:** Start Docker service manually.
 * **`docker run <name>`:** Test full Docker setup end-to-end.
 
+## 💡 Help
+* **`docker --help`:** .
+* **`docker images --help`:** .
+* **`docker build --help`:** .
+* **`docker run --help`:** .
+
 ## 🖼️ Images
 * **`docker images`:** List downloaded images. ***old***
 * **`docker image ls`:** List downloaded images.
-* **`docker build -t <tag> .`:** Build image and tag. ***old***
+* **`docker build [-t <tag>] .`:** Build image and tag. ***old***
 * **`docker image build .`:** Build image.
 * **`docker pull <image>`:** Download image. ***old***
 * **`docker image pull <image>`:** Download image.
@@ -70,18 +76,15 @@ EOF
 * **`docker rm <id|name>`:** Delete stopped container. ***old***
 * **`docker rm -f <id|name>`:** Force delete running container. ***old***
 * **`docker container rm <id|name>`:** Delete stopped container.
-
 * **`docker logs <id>`:** View container output.
 * **`docker logs -f <id>`:** Follow container output (like `tail -f`).
-
 * **`docker exec -it <id> bash`:** Open shell in running container. ***old***
 * **`docker container exec -it <id> bash`:** Open shell in running container.
-
 * **`docker cp`:** . ***old***
 * **`docker container cp`:** .
-
 * **`docker inspect`:** . ***old***
 * **`docker container inspect`:** .
+
 
 
 

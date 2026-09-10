@@ -90,8 +90,8 @@ EOF
 * **`docker network ls`:** .
 * **`docker network create <name>`:** .
 
-
-
+* **`docker compose build`:** Build from docker-compose.yml.
+* **`docker compose up`:** Build from docker-compose.yml.
 
 
 

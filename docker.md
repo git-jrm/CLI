@@ -82,12 +82,11 @@ EOF
 * **`docker container exec -it <id> bash`:** Open shell in running container.
 * **`docker inspect <id>`:** Config details. ***old***
 * **`docker container inspect <id>`:** Config details.
+* **`docker save <image> > image.rar`:** Export image.
+* **`docker load --input image.rar`:** Import image.
+
 * **`docker cp`:** . ***old***
 * **`docker container cp`:** .
-
-* **`docker save <image> > image.rar`:** .
-* **`docker load --input image.rar`:** .
-
 * **`docker network ls`:** .
 * **`docker network create <name>`:** .
 

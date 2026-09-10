@@ -87,7 +87,7 @@ EOF
 * **`docker container cp`:** .
 
 
-
+docker network ls
 
 
 

@@ -81,8 +81,7 @@ EOF
 * **`docker exec -it <id> bash`:** Open shell in running container. ***old***
 * **`docker container exec -it <id> bash`:** Open shell in running container.
 * **`docker inspect <id>`:** Config details. ***old***
-* **`docker container inspect ,
-<id>`:** Config details.
+* **`docker container inspect <id>`:** Config details.
 * **`docker cp`:** . ***old***
 * **`docker container cp`:** .
 

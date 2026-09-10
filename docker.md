@@ -85,9 +85,11 @@ EOF
 * **`docker cp`:** . ***old***
 * **`docker container cp`:** .
 
+* **`docker save <image> > image.rar`:** .
+* **`docker load --input image.rar`:** .
 
-docker network ls
-docker network create <name>
+* **`docker network ls`:** .
+* **`docker network create <name>`:** .
 
 
 

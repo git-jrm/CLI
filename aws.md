@@ -6,5 +6,6 @@
  echo 'export PATH=/home/user/.local/bin:$PATH' >> ~/.bashrc
  source ~/.bashrc
  aws --version
+ aws update
 ```
 

@@ -9,3 +9,9 @@
  aws update
 ```
 
+```
+### ACCESS KEY Config
+* AWS: S3>Create bucket.
+* AWS: IAM user>Security credentials>Create access key.
+* Repo: settings>Actions secrets and variables>Actions>New repository secrets: Add 2 secrets: access key & secret key.
+```

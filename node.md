@@ -32,6 +32,9 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 source ~/.bashrc
 pnpm --version
 #  12.8.1
+
+pnpm install
+pnpm test
 ```
 ```
 pnpm init  # npm init

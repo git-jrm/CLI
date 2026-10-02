@@ -1,11 +1,11 @@
 # 💯 Essential Node Commands
 
-## 📁 Install fnm: for better performance
+## 📁 Install node via fnm: for better performance
 using fnm (fast node manager) instead of nvm (node version manager) 
 ```
 curl -fsSL https://fnm.vercel.app/install | bash
-fnm --version
 source ~/.bashrc
+fnm --version
 ```
 
 ```
@@ -14,6 +14,30 @@ fnm dafault 24
 
 fnm ls
 fnm --version && node -v
+#  fnm 1.39.0
+#  v24.21.0
+```
+
+using pnpm (performant node package manager) instead of npm (node package manager) 
+```
+ldd --version
+#  ldd (Ubuntu GLIBC 2.43-2ubuntu2.4) 2.43
+#  Copyright (C) 2024 Free Software Foundation, Inc.
+
+ldconfig -p | grep libatomic
+
+#  libatomic.so.1 (libc6,x86-64) => /usr/lib/x86_64-linux-gnu/libatomic.so.1
+
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+source ~/.bashrc
+pnpm --version
+#  12.8.1
+```
+```
+pnpm init  # npm init
+pnpm add express  # npm install express / npm i express
+pnpm add -D dotenv  # npm install --save-dev dotenv / npm i -D dotenv
+pnpm dev  # npm run dev
 ```
 
 ## 📁 Install Binary: for local scripting

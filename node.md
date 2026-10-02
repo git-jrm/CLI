@@ -12,6 +12,8 @@ source ~/.bashrc
 fnm install 24
 fnm dafault 24
 
+fnm ls
+fnm --version && node -v
 ```
 
 ## 📁 Install Binary: for local scripting

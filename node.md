@@ -1,50 +1,39 @@
 # 💯 Essential Node Commands
 
-## 📁 Bin install
+## 📁 Install fnm: for better performance
+using fnm (fast node manager) instead of nvm (node version manager) 
 ```
-# define and donload version in temp dif
-VER=v24.21.0
-cd /tmp && wget https://nodejs.org/dist/$VER/node-$VER-linux-x64.tar.xz
-
-    --2026-10-01 18:02:10--  https://nodejs.org/dist/v24.21.0/node-v24.21.0-linux-x64.tar.xz
-    Resolving nodejs.org (nodejs.org)... 104.16.212.131, 104.16.213.131, 2606:4700::6810:d483, ...
-    Connecting to nodejs.org (nodejs.org)|104.16.212.131|:443... connected.
-    HTTP request sent, awaiting response... 200 OK
-    Length: 31890184 (30M) [application/x-xz]
-    Saving to: ‘node-v24.21.0-linux-x64.tar.xz’
-
-    node-v24.21.0-linux 100%[===================>]  30.41M  47.0MB/s    in 0.6s    
-
-    2026-10-01 18:02:10 (47.0 MB/s) - ‘node-v24.21.0-linux-x64.tar.xz’ saved [31890184/31890184]
+curl -fsSL https://fnm.vercel.app/install | bash
+fnm --version
+source ~/.bashrc
 ```
 
-## Integrity check
 ```
-# Integrity check comparison
-wget https://nodejs.org/dist/$VER/SHASUMS256.txt
-grep node-$VER-linux-x64.tar.xz SHASUMS256.txt | sha256sum -c -
+fnm install 24
+fnm dafault 24
 
-    --2026-10-01 18:02:33--  https://nodejs.org/dist/v24.21.0/SHASUMS256.txt
-    Resolving nodejs.org (nodejs.org)... 104.16.212.131, 104.16.213.131, 2606:4700::6810:d583, ...
-    Connecting to nodejs.org (nodejs.org)|104.16.212.131|:443... connected.
-    HTTP request sent, awaiting response... 200 OK
-    Length: 3171 (3.1K) [text/plain]
-    Saving to: ‘SHASUMS256.txt’
-
-    SHASUMS256.txt      100%[===================>]   3.10K  --.-KB/s    in 0s      
-
-    2026-10-01 18:02:33 (10.6 MB/s) - ‘SHASUMS256.txt’ saved [3171/3171]
-
-    node-v24.21.0-linux-x64.tar.xz: OK
 ```
 
-## Extract
+## 📁 Install Binary: for local scripting
 ```
-# extract from xz file to node dir
+# create directory and extract from XZ file
 sudo mkdir -p /opt/node
 sudo tar -xJf node-$VER-linux-x64.tar.xz -C /opt/node
-```
 
+# force symbolic link to current node 
+sudo ln -sfn /opt/node/node-v24.21.0-linux-x64 /opt/node/current
+
+# set symlinks
+sudo ln -sf /opt/node/current/bin/node /usr/local/bin/node
+sudo ln -sf /opt/node/current/bin/npm /usr/local/bin/npm
+sudo ln -sf /opt/node/current/bin/npx /usr/local/bin/npx
+
+# easy to switch version with:
+sudo ln -sfn /opt/node/node-v26.0.0-linux-x64 /opt/node/current
+
+# optional PATH to global packages
+echo 'export PATH=/opt/node/current/bin:$PATH' >> ~/.profile
+```
 
 
 

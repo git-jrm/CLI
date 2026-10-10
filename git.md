@@ -74,8 +74,7 @@
 * **`git diff`:** Compare Working Directory against Staging area.
 * **`git diff --staged`:** Compare Staging area against Current Commit.
 * **`git diff origin/main...main`:** Compare common ancestor to current main (show local changes since last sync).
-
-
+* **`git diff main...origin/main`:** • Compare common ancestor to remote main (show incoming changes).
 
 ## ⏪ Undoing & Rewriting History
 * **`git restore <file>`**: Discard local unstaged changes.

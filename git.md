@@ -31,6 +31,7 @@
 
 ## 🔄 Workflow
 * **`git status`:** Show branch and working directory status.
+* **`git status --short`:** .
 * **`git add .`:** Stage all changes in working directory.
 * **`git add <file>`:** Stage a specific file safely.
 * **`git commit -m "message"`:** Create commit with a message.

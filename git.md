@@ -73,6 +73,7 @@
 
 ## ⏪ Undoing & Rewriting History
 * **`git restore <file>`**: Discard local unstaged changes.
+* **`git restore --staged -- '*.zip'`**: Discard staged changes by file extension.
 * **`git checkout -- <file>`**: Discard local unstaged changes *(legacy/not-recommended)*.
 * **`git commit --amend`:** Replace the current commit.
 * **`git revert`:** Create a new commit that undoes the changes of a past commit. **(no visto aún: repasar)**

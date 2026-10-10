@@ -42,7 +42,8 @@
 * **`git pull origin main`:** Fetch and merge changes from the remote main branch.
 * **`git pull -u origin main`:** Fetch and merge changes and link.
 * **`git pull`:** Fetch and merge changes from the remote main branch.
-* **`git fetch --prune`:** Fetch remote updates and clean up deleted remote branches. **(no visto aún: repasar)**
+* **`git fetch --prune`:** Fetch remote updates and clean up deleted remote branches. **(repasar)**
+* **`git fetch origin`:** Downloads latest remote changes without modifying your local code.
 
 ## 🌿 Branching & Merging
 * **`git branch`:** List local branches.

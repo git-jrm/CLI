@@ -65,6 +65,7 @@
 * **`git log --oneline --all`:** List all branches and history.
 * **`git log --oneline --graph --all`:** Visual graph of all branches and history.
 * **`git log --oneline --graph --decorate --left-right main...origin/main`:** Show asymmetric differences and divergence between main and origin/main.
+* **`git log --oneline --decorate origin/main..main`:** .
 * **`git reflog`:** Keep a detailed safety log of every local action taken.
 * **`git show`:** Show changes in Current Commit.
 * **`git show <file>`:** Show changes for a specific file.

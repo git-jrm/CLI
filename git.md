@@ -91,6 +91,7 @@
 * **`git reset --hard a1a1a`:** Move to commit, discard changes, sync stage and working directory.
 * **`git rebase -i HEAD~3`:** Back to the past to edit history.
 * **`git rebase --continue`:** Apply pending commits in blocks.
+* **`git rm -r --cached --ignore-unmatch node_modules app/tracker-api/node_modules app/web/node_modules`:** .
 
 ## 🧰 Advanced Utilities
 * **`git stash`:** Hide working directory changes in a limbo.

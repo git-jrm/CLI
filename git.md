@@ -48,6 +48,7 @@
 
 ## 🌿 Branching & Merging
 * **`git branch`:** List local branches.
+* **`git branch -vv`:** Very verbose.
 * **`git branch <name>`:** Create local branch.
 * **`git switch <name>`:** Switch to an existing branch.
 * **`git checkout <name>`:** Switch to an existing branch. *(Legacy/Not-recommended)*
